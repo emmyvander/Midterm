@@ -1,6 +1,7 @@
 
 <html>
   <head>
+      <title>MIDTERM 2019</title>
       <center>
       <title>MIDTERM 2019</title>
         <style type="text/css">
@@ -16,7 +17,7 @@
     <script type="text/javascript">
       var question = "What is your name?";
       var answer = prompt(question);
-
+      var rnd = Math.floor(Math.random() * 100) + 1;
       var parent = new Date();
       var currentHours = parent.getHours()
 
@@ -33,6 +34,9 @@
       document.write("Today's date is " + parent);
 
       document.write("<br>");
+      //group 3 
+      document.write("</br>")
+      document.write("Your lucky number today is " + rnd + ".");
       
       //group 1
         var city = "BROOKLYN";
